@@ -9,7 +9,7 @@ class Triffid
    private:
           int MonsterNumber;
    public:
-          Triffid();
+          Triffid(int number);
           ~Triffid();
           void ReadMonsterFile();
           void AddHeroCharacter();
