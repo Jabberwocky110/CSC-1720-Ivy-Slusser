@@ -1,4 +1,3 @@
-#include "Project3.h"
 #include "Project3Story.h"
 
 void setup()
