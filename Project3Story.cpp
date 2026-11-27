@@ -6,12 +6,12 @@ void TriffidStory::PageNavigation(bool direction)
 {
    if (direction)
    {
-      PreviousPages.top() = CurrentNextPages.top();
+      PreviousPages.push(CurrentNextPages.top());
       CurrentNextPages.pop();
    }
    else
    {
-      CurrentNextPages.top() = PreviousPages.top();
+      CurrentNextPages.push(PreviousPages.top());
       PreviousPages.pop();
    }
 }
